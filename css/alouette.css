@@ -1,0 +1,87 @@
+body {
+  font-family: verdana;
+  background-color: #c1c1ff;
+  background-image: url(fond_oiseaux.svg);
+  background-size: 64px;
+  color: #000099;
+}
+
+nav {
+  background-color: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1;
+  font-size: smaller;
+  height: 3em;
+}
+
+nav ul {
+  width: 80ch;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  background-color: rgba(0, 0, 255, 0.1);
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+  margin: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+  color: inherit;
+  text-decoration: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.chanson {
+  width: 17em;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+div.strophe {
+  background-color: #d9d9ff;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 1em 0;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2) inset;
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2) inset;
+}
+
+div.refrain {
+  font-weight: bold;
+}
+
+div.reponse {
+  font-family: cursive;
+}
+/*# sourceMappingURL=alouette.css.map */
