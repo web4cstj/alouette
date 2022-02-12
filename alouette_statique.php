@@ -2,11 +2,11 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="alouette.css" />
+		<link rel="stylesheet" href="css/alouette.css" />
 		<title>Alouette, gentille Alouette</title>
 	</head>
 	<body>
-		<?php include "menu.inc.php"; ?>
+		<?php include "includes/menu.inc.php"; ?>
 		<h1>Alouette, gentille Alouette</h1>
 		<div class="chanson">
 			<div class="strophe">

@@ -1,14 +1,14 @@
 <?php
-include "alouette.inc.php";
+include "includes/alouette.inc.php";
 ?><!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="alouette.css" />
+		<link rel="stylesheet" href="css/alouette.css" />
 		<title><?php echo $oiseau; ?>, <?php echo $qualite; ?> <?php echo $oiseau; ?></title>
 	</head>
 	<body>
-		<?php include "menu.inc.php"; ?>
+		<?php include "includes/menu.inc.php"; ?>
 		<h1><?php echo $oiseau; ?>, <?php echo $qualite; ?> <?php echo $oiseau; ?></h1>
 		<div class="chanson">
 			<?php $membres_dits = array(); ?>

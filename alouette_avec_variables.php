@@ -1,5 +1,5 @@
 <?php
-require_once('alouette.inc.php');
+require_once('includes/alouette.inc.php');
 $titre = $oiseau.', '.$qualite.' '.$oiseau;
 $refrain1 = '<div>'.$titre.'</div>';
 $refrain2 = '<div>'.$oiseau.', je '.$action.'.'.'</div>';
@@ -33,12 +33,12 @@ $affichage .= '</div>';
 
 <head>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="alouette.css" />
+	<link rel="stylesheet" href="css/alouette.css" />
 	<title><?php echo $titre ?></title>
 </head>
 
 <body>
-	<?php include "menu.inc.php"; ?>
+	<?php include "includes/menu.inc.php"; ?>
 	<h1><?php echo $titre ?></h1>
 	<?php echo $affichage ?>
 </body>
